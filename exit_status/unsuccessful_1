@@ -1,0 +1,5 @@
+#! /bin/bash
+
+# An error will occur and stops the script
+cd path_not_exist
+

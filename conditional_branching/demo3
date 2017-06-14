@@ -1,0 +1,12 @@
+# /bin/bash
+
+[ -z $w ] && echo '$w is empty'
+
+x=
+[ -z $x ] && echo '$x is empty'
+
+y=''
+[ -z $y ] && echo '$y is empty'
+
+z=""
+[ -z $z ] && echo '$z is empty'

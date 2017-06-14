@@ -1,0 +1,12 @@
+#! /bin/bash
+
+# define variable
+X=1
+
+# pring literal X
+echo "pring literal X"
+echo X
+
+# print value of variable X
+echo "print value of variable X"
+echo $X

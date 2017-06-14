@@ -1,0 +1,7 @@
+#~/bin/bash 
+
+VAR=value
+
+echo $VAR
+echo '$VAR'
+echo "$VAR"

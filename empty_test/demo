@@ -1,0 +1,15 @@
+# ~/bin/bash
+
+if [ -z $1 ]
+then
+    echo provide filename
+    read FILENAME
+else
+    FILENAME="$@"
+fi
+
+echo filename is $FILENAME
+
+exit 0
+
+

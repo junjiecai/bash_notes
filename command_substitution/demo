@@ -1,0 +1,3 @@
+# ~/bin/bash
+
+cp test test.$(date +%d-%m-%y)

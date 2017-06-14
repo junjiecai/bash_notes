@@ -1,0 +1,9 @@
+# ~/bin/bash
+
+echo provide A
+read A
+echo $A
+
+echo provide B
+read $B
+echo $B

@@ -1,0 +1,21 @@
+# ~/bin/bash
+
+echo $A
+
+echo ${A:-a}
+echo $A
+
+echo ${A:=abc}
+echo $A
+
+echo ${A:1:1}
+
+
+echo C
+echo ${B:?'not exist'}
+echo C
+
+
+
+
+

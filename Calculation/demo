@@ -1,0 +1,10 @@
+# ~/bin/bash
+
+echo $((1+1))
+
+let x="$1 $2 $3"
+echo $x
+
+
+echo "scale=9;10/3"|bc
+echo "scale=2;10/3"|bc

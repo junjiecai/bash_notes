@@ -1,0 +1,5 @@
+#~/bin/bash
+
+find .-name *.doc
+find .-name '*.doc'
+

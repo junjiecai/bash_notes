@@ -1,0 +1,8 @@
+# ~/bin/bash
+
+names=(linda lisa laura)
+names[3]=fred
+
+echo ${names[2]}
+echo ${names[@]}
+echo ${#names[@]}

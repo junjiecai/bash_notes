@@ -1,0 +1,8 @@
+# ~/bin/bash
+
+lftp <<EndOfSession
+bye
+EndOfSession
+
+
+

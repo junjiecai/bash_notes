@@ -1,0 +1,8 @@
+#! /bin/bash
+
+# An error will occur and stops the script
+cd path_not_exist
+
+# Unlike other programming language like python, error in one command don't break the whole script
+echo "This command is still be executed"
+

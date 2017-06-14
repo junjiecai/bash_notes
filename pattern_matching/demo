@@ -1,0 +1,13 @@
+# ~/bin/bash
+
+FILENAME=/usr/bin/blah
+
+echo ${FILENAME#*/}
+
+echo ${FILENAME##*/}
+
+echo ${FILENAME%/*}
+
+echo ${FILENAME%%/*}
+
+echo ${FILENAME##'/usr'}

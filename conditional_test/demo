@@ -1,0 +1,7 @@
+# ~/bin/bash
+
+A="ab"
+test -z $A || echo '$A is not empty'
+[ -z $A ] || echo '$A is not empty'
+echo $([[ 'a' == '[a-z]*' ]])
+[[ $A=='[a-z]*' ]] && echo '$A starts with a-z'

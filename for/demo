@@ -1,0 +1,21 @@
+# ~/bin/bash
+
+# loop over every word
+for i in $(cat /etc/hosts)
+do
+  echo $i
+done
+
+
+for i in {1..5}
+do
+  echo $i
+done
+
+# * will be interpreted as all file names in the current directory
+for i in *
+do
+    echo $i
+done
+
+

@@ -1,0 +1,15 @@
+#! /bin/bash
+
+# Add execution permission all all test scripts except test_2
+chmod +x test
+chmod +x test_1
+chmod +x test_3
+chmod +x test_4.sh
+chmod +x test_5
+
+
+# put all test files to /usr/local/sbin/ except test_5
+cp test* /usr/local/sbin/
+rm /usr/local/sbin/test_5
+
+
